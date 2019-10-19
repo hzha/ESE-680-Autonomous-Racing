@@ -1,0 +1,1 @@
+The package just depends on roscpp rospy std_msgs and message_generation. And it include the cpp file, launch file, msg file and other immportant ones.
