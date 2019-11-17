@@ -9,7 +9,7 @@ at the meantime constructing dynanic map with message from lidar scan.
 
 And the car gets its real-time position and pose in map by particle filter.
 
-![rrtstar](https://user-images.githubusercontent.com/53478662/69003023-d946d200-08c8-11ea-9764-556d413e2d41.gif)
+![output](https://user-images.githubusercontent.com/53478662/69014425-1dcd7e80-0958-11ea-9967-716b37ae6796.gif)
 
 REACTIVE OBSTACLE AVOIDANCE
 
