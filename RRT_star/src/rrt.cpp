@@ -14,18 +14,18 @@ RRT::RRT(ros::NodeHandle &nh): nh_(nh), tfListener(tfBuffer), gen((std::random_d
     pose_topic = "/pf/pose/odom";
     scan_topic = "/scan";
     map_topic = "/map_metadata";
-//    nh_.getParam("pose_topic", pose_topic);
-//    nh_.getParam("scan_topic", scan_topic);
-//    nh_.getParam("map_topic",map_topic );
-//    nh_.getParam("lookahead_wp", lookahead_wp);
-//    nh_.getParam("lookahead_path", lookahead_path);
-//    nh_.getParam("inflation_size",inflation_size);
-//    nh_.getParam("step_size", step_size);
-//    nh_.getParam("goal_threshold", goal_threshold);
-//    nh_.getParam("MAX_ITER", MAX_ITER);
-//    nh_.getParam("interpolation_number",interpolation_number);
-//    nh_.getParam("sample_goal_prob_reciprocal",sample_goal_prob_reciprocal);
-//    nh_.getParam("Kp",Kp);
+    nh_.getParam("pose_topic", pose_topic);
+    nh_.getParam("scan_topic", scan_topic);
+    nh_.getParam("map_topic",map_topic );
+    nh_.getParam("lookahead_wp", lookahead_wp);
+    nh_.getParam("lookahead_path", lookahead_path);
+    nh_.getParam("inflation_size",inflation_size);
+    nh_.getParam("step_size", step_size);
+    nh_.getParam("goal_threshold", goal_threshold);
+    nh_.getParam("MAX_ITER", MAX_ITER);
+    nh_.getParam("interpolation_number",interpolation_number);
+    nh_.getParam("sample_goal_prob_reciprocal",sample_goal_prob_reciprocal);
+    nh_.getParam("Kp",Kp);
     nh_.getParam("map_clear_pubnumber",map_clear_pubnumber);
 
 
