@@ -1,9 +1,6 @@
 // ESE 680
-// RRT assignment
-// Author: Hongrui Zheng
 
 // This file contains the class definition of tree nodes and RRT
-// Before you start, please read: https://arxiv.org/pdf/1105.1186.pdf
 
 // ros
 #include <ros/ros.h>
