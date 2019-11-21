@@ -1,8 +1,0 @@
-prefix=/home/hunter/hongtaozhang_ws/src/hongtaozhang_reactive/cmake-build-debug/devel
-
-Name: hongtaozhang_reactive
-Description: Description of hongtaozhang_reactive
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/hunter/hongtaozhang_ws/src/hongtaozhang_reactive/cmake-build-debug/devel/lib 
-Requires: 

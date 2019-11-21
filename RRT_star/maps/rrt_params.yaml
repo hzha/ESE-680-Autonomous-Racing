@@ -1,0 +1,25 @@
+# Topics that RRT listens to
+# TODO: add your own
+# TODO: change this to the pose topic published particle filter
+pose_topic: "/pf/pose/odom"
+scan_topic: "/scan"
+map_topic: "/map_metadata"
+
+# Topics that RRT publishes to
+#drive_topic: "/nav"
+
+# TODO: add your own
+# visualization
+
+
+# TODO: add Parameters for RRT
+lookahead_path: 0.65
+lookahead_wp: 1.7
+inflation_size: 5
+step_size: 0.3
+goal_threshold: 0.1
+MAX_ITER: 100
+interpolation_number: 10
+sample_goal_prob_reciprocal: 3
+map_clear_pubnumber: 100
+Kp: 0.75

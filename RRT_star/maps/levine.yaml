@@ -1,0 +1,7 @@
+image: levine_blocked_small.pgm
+resolution: 0.050000
+origin: [-5.35, -17.7, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+
