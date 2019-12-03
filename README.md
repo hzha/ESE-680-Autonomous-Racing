@@ -2,14 +2,13 @@
 This is for the ESE-680-Autonomous-Racing. The ros lab is for basic message sending and receiving. And the safety_lab is for 
 creating a node of emergency braking when the car is too close to an obstacle.
 
-RRT*
+informed_RRT*
 
-RRT* algorithm in simulator with visualisation of tree, path and waypoints. The car could receive data from the static map and 
-at the meantime constructing dynanic map with message from lidar scan. 
+informed_RRT* algorithm in simulator with visualisation of tree, path and waypoints. The car could receive data from the static map and at the meantime constructing dynanic map with message from lidar scan. 
 
 And the car gets its real-time position and pose in map by particle filter.
 
-![output](https://user-images.githubusercontent.com/53478662/69014425-1dcd7e80-0958-11ea-9967-716b37ae6796.gif)
+![informed_RRT*](https://user-images.githubusercontent.com/53478662/70093546-a4d45500-15ee-11ea-8916-70bae371d3c6.gif)
 
 REACTIVE OBSTACLE AVOIDANCE
 
